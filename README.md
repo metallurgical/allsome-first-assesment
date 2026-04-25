@@ -10,13 +10,27 @@ A simple PHP web app that reads from CSV file, calculates total revenue and best
 
 ## Installation
 
+**Option 1 — Using Git**
+
 ```bash
 git clone git@github.com:metallurgical/allsome-first-assesment.git
 cd allsome-first-assesment
 composer install
 ```
 
+**Option 2 — Using .zip file**
+
+The .zip folder already contains ```vendor``` folder, so no need to run the ```composer install```.
+
+```bash
+1. unzip .zip file allsome-first-assesment.zip
+2. cd into allsome-first-assesment folder
+3. Continue to next section
+```
+
 ## Running the app
+
+**! Important**: To continue running the app, make sure your mac/laptop configure the **Requirements** section then only able to run the web app.
 
 **Option 1 — PHP built-in server**
 
